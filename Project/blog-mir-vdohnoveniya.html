@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Блог о путешествиях - проект Владислава с использованием современных веб-технологий">
+    <title>Блог "Мир Вдохновения" | Владислав</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<!-- Переключатель темы -->
+<div class="theme-switcher" role="button" aria-label="Переключить тему">
+    <i class="fas fa-moon"></i>
+</div>
 
+<!-- Навигация -->
+<nav class="project-nav">
+    <a href="../index.html" class="back-link">
+        <i class="fas fa-arrow-left"></i> На главную
+    </a>
+</nav>
+
+<main class="project-page">
+    <div class="container">
+        <header class="project-header">
+            <h1>Блог "Мир Вдохновения"</h1>
+            <div class="project-meta">
+                <span class="project-date">Май 2024</span>
+                <span class="project-category">Веб-разработка</span>
+            </div>
+        </header>
+
+        <section class="project-gallery">
+            <figure class="project-screenshot">
+                <img src="../images/blog-full-1.jpg" alt="Главная страница блога" loading="lazy">
+                <figcaption>Адаптивный дизайн главной страницы</figcaption>
+            </figure>
+
+            <figure class="project-screenshot">
+                <img src="../images/blog-full-2.jpg" alt="Страница статьи" loading="lazy">
+                <figcaption>Пример страницы с статьей</figcaption>
+            </figure>
+        </section>
+
+        <article class="project-details">
+            <section class="project-description">
+                <h2>О проекте</h2>
+                <p>Многостраничный блог с системой категорий, тегов и поиском. Основные особенности:</p>
+                <ul class="feature-list">
+                    <li>Адаптивная сетка статей</li>
+                    <li>Система комментариев</li>
+                    <li>Поиск по контенту</li>
+                    <li>Оптимизированная загрузка изображений</li>
+                </ul>
+            </section>
+
+            <section class="technology-stack">
+                <h2>Технологии</h2>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js-square"></i>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-links">
+                <h2>Ссылки</h2>
+                <div class="link-buttons">
+                    <a href="https://github.com/yourname/blog-project"
+                       class="project-button"
+                       target="_blank"
+                       rel="noopener">
+                        <i class="fab fa-github"></i> Исходный код
+                    </a>
+                    <a href="https://blog-demo.vercel.app"
+                       class="project-button"
+                       target="_blank"
+                       rel="noopener">
+                        <i class="fas fa-external-link-alt"></i> Демо
+                    </a>
+                </div>
+            </section>
+        </article>
+    </div>
+</main>
+
+<footer class="page-footer">
+    <div class="container">
+        <p>&copy; 2024 Владислав. Все права защищены</p>
+    </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
